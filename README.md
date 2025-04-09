@@ -1,5 +1,5 @@
 
--README - Site de Mangás
+-README - SITE DE MANGÁS
 Bem-vindo ao Site de Mangás! Este é um site criado com HTML, CSS e JavaScript, dedicado a fãs de mangá. Ele oferece uma experiência interativa e agradável, com várias funcionalidades para melhorar a navegação e interação. O site inclui:
 
 Modo Escuro para uma leitura mais confortável.
@@ -14,7 +14,7 @@ Quiz divertido sobre mangás para testar seus conhecimentos!
 
 
 
--Funcionalidades
+-FUNCIONALIDADES
 1. Modo Escuro
 O site oferece uma opção de modo escuro, permitindo ao usuário alternar entre os modos claro e escuro para facilitar a leitura durante a noite ou em ambientes com pouca luz.
 
@@ -32,7 +32,7 @@ O site possui um quiz sobre mangás que desafia os usuários a responderem pergu
 
 
 
--Como Usar
+-COMO USAR
 1. Alternando entre o Modo Escuro e Claro
 Clique no ícone de lua/sol localizado no canto superior direito da página para alternar entre os modos.
 
@@ -47,7 +47,7 @@ Clique no link ou botão do quiz para iniciar a competição. Responda às pergu
 
 
 
--Tecnologias Utilizadas
+-TECNOLOGIAS UTILIZADAS
 HTML5: Para a estruturação das páginas.
 
 CSS3: Para o estilo visual do site e animações.
