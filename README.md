@@ -1,18 +1,5 @@
-Tema do site é sobre mangás
 
-criamos um site explicando sobre os mangás, alguns criadores, contato, recomendações e um quiz 
-
-Utilizamos htmls,css e javascript
-
-algumas funções utlizadas foram o modo escuro, o direcionamento do contato para o Whatsapp, e a animação do scroll, e a animação das letras
-
-
-
-
-
-
-
-README - Site de Mangás
+-README - Site de Mangás
 Bem-vindo ao Site de Mangás! Este é um site criado com HTML, CSS e JavaScript, dedicado a fãs de mangá. Ele oferece uma experiência interativa e agradável, com várias funcionalidades para melhorar a navegação e interação. O site inclui:
 
 Modo Escuro para uma leitura mais confortável.
@@ -25,7 +12,9 @@ Direcionamento para o WhatsApp para contato direto.
 
 Quiz divertido sobre mangás para testar seus conhecimentos!
 
-Funcionalidades
+
+
+-Funcionalidades
 1. Modo Escuro
 O site oferece uma opção de modo escuro, permitindo ao usuário alternar entre os modos claro e escuro para facilitar a leitura durante a noite ou em ambientes com pouca luz.
 
@@ -41,7 +30,9 @@ Há um botão de contato via WhatsApp, onde os usuários podem clicar para inici
 5. Quiz de Mangás
 O site possui um quiz sobre mangás que desafia os usuários a responderem perguntas e testarem seus conhecimentos sobre o mundo dos mangás. Ao final, você recebe uma pontuação!
 
-Como Usar
+
+
+-Como Usar
 1. Alternando entre o Modo Escuro e Claro
 Clique no ícone de lua/sol localizado no canto superior direito da página para alternar entre os modos.
 
@@ -54,7 +45,9 @@ Clique no ícone de WhatsApp para ser redirecionado diretamente para uma convers
 4. Participando do Quiz
 Clique no link ou botão do quiz para iniciar a competição. Responda às perguntas sobre mangás e desafie seus amigos a alcançar a maior pontuação!
 
-Tecnologias Utilizadas
+
+
+-Tecnologias Utilizadas
 HTML5: Para a estruturação das páginas.
 
 CSS3: Para o estilo visual do site e animações.
