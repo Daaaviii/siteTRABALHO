@@ -14,6 +14,9 @@ Quiz divertido sobre mangás para testar seus conhecimentos!
 
 
 
+
+
+
 -FUNCIONALIDADES
 1. Modo Escuro
 O site oferece uma opção de modo escuro, permitindo ao usuário alternar entre os modos claro e escuro para facilitar a leitura durante a noite ou em ambientes com pouca luz.
