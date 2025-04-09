@@ -1,0 +1,485 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    
+  }
+
+  header{
+    background-color: #ff4757;
+    color: white;
+    text-align: center;
+    
+  }
+  
+  /* Header */
+  nav {
+    background-color: #ff4757;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+#dark-mode-toggle{
+  background: none;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  color: white;
+}
+
+  nav.scroll{
+    background-color: #ff6b81;
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin-top: 10px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-image: url('img/photo-1519638399535-1b036603ac77.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 300px 40px;
+  }
+  
+  .hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+  }
+  
+  /* Anime Section */
+  .animes {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .animes h2 {
+    margin-bottom: 30px;
+  }
+  
+  .anime-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .anime-card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+  }
+  
+  .anime-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .anime-card img {
+    width: 100%;
+    display: block;
+  }
+  
+  .anime-card h3 {
+    padding: 10px;
+    font-size: 1.1em;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #2f3542;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+
+  /* Animação dos cards */
+.anime-card {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s ease;
+}
+
+.anime-card.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Destaque no menu */
+nav ul li a.active {
+  border-bottom: 2px solid white;
+}
+
+
+.manga-section {
+  background-color: #fff7f0;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.manga-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #e17055;
+}
+
+.manga-intro {
+  font-size: 18px;
+  max-width: 800px;
+  margin: 0 auto 40px;
+  color: #555;
+}
+
+.manga-tipos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.tipo {
+  background-color: #ffeaa7;
+  padding: 20px;
+  width: 250px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s;
+}
+
+.tipo:hover {
+  transform: scale(1.05);
+}
+
+.tipo h3 {
+  margin-bottom: 10px;
+  color: #d63031;
+}
+
+.tipo p {
+  font-size: 16px;
+  color: #555;
+}
+
+.historia {
+  display: flex;
+  flex-direction: column;
+  gap: 30px; /* Espaço entre os itens */
+  padding: 20px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.item img {
+  width: 200px; /* Tamanho da imagem */
+  height: auto;
+  border-radius: 10px; /* Deixa a imagem com cantos arredondados */
+}
+
+.texto {
+  max-width: 600px;
+}
+
+.texto h3 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.texto p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.dark-mode {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+}
+
+.dark-mode nav {
+  background-color: #333;
+}
+
+
+.dark-mode #dark-mode-toggle {
+  color: #f1f1f1;
+}
+
+/* Para o texto geral */
+body.dark-mode {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+}
+
+/* Para os links dentro do body */
+body.dark-mode a {
+  color: #f1f1f1;
+}
+
+/* Para o nav */
+body.dark-mode nav {
+  background-color: #333;
+}
+
+/* Para os links do menu */
+body.dark-mode nav a {
+  color: #f1f1f1;
+}
+
+/* Botão modo escuro */
+body.dark-mode #dark-mode-toggle {
+  color: #f1f1f1;
+}
+p{
+  color: black;
+}
+body.dark-mode p{
+  color: #f1f1f1;
+}
+
+/* Modo escuro para as seções */
+body.dark-mode .quiz-container,
+body.dark-mode .quiz-section
+body.dark-mode .quiz-buttons,
+body.dark-mode .animes,
+body.dark-mode .texto h3,
+body.dark-mode .anime-card,
+body.dark-mode .tipo,
+body.dark-mode .manga-section,
+body.dark-mode .manga-tipos {
+  background-color: #121212; /* fundo escuro */
+  color: #f1f1f1; /* texto branco */
+}
+
+/* E também garantir que os textos internos fiquem brancos */
+body.dark-mode .quiz-container,
+body.dark-mode .quiz-section
+body.dark-mode .quiz-buttons,
+body.dark-mode .anime-card,
+body.dark-mode .texto h3,
+body.dark-mode .animes h2,
+body.dark-mode .tipo p,
+body.dark-mode .manga-section h2,
+body.dark-mode .manga-section p,
+body.dark-mode .manga-tipos h3,
+body.dark-mode .manga-tipos p {
+  color: #f1f1f1;
+}
+
+#quiz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  background: #f7f7f7;
+  min-height: 100vh;
+}
+
+/* Animação de entrada */
+.quiz-container {
+  background: white;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 1s forwards;
+}
+
+.quiz-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.quiz-container h2 {
+  margin-bottom: 20px;
+  color: #ff4757;
+  font-size: 28px;
+}
+
+.quiz-container p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.quiz-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.quiz-buttons button {
+  background-color: #ff4757;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.quiz-buttons button:hover {
+  background-color: #e84118;
+  transform: scale(1.05); /* botão cresce levemente */
+}
+
+/* Animação para o resultado */
+#resultado {
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: all 0.4s;
+}
+
+#titulo-autores {
+  text-align: center;
+  font-size: 36px;
+  color: #333;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+  position: relative;
+}
+
+#titulo-autores::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #ccc;
+  margin: 10px auto 0;
+}
+
+#titulo-autores {
+  text-align: center;
+  font-size: 32px;
+  color: #e17055;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+  opacity: 0; /* Começa invisível */
+  transform: translateY(20px); /* Começa um pouco deslocado para baixo */
+  transition: all 0.8s ease; /* Suavidade da animação */
+}
+
+#titulo-autores.show {
+  opacity: 1; /* Fica visível */
+  transform: translateY(0); /* Sobe para o lugar normal */
+}
+
+.container{
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+
+/* Ajustes para telas menores */
+@media (max-width: 768px) {
+  
+  header, nav, .hero {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .container, .section, .content {
+    width: 90%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}

@@ -1,0 +1,224 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    line-height: 1.6;
+    background-color: #d4d2d2;
+    color: #333;
+    background-image: url('');
+  }
+  
+  /* Hero (banner principal) */
+  .hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1613061373166-56c8f3f1a72f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80') no-repeat center/cover;
+    height: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+  }
+  
+  /* Conteúdo principal */
+  main {
+    padding: 40px 20px;
+  }
+  
+  section {
+    margin-bottom: 60px;
+  }
+  
+  section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #6200ea;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease;
+  }
+  
+  section p, section ul {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: justify;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Botão voltar */
+  #voltar-topo {
+    display: block;
+    margin: 40px auto 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #6200ea;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #voltar-topo:hover {
+    background-color: #3700b3;
+  }
+  
+  /* Rodapé */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #6200ea;
+    color: #fff;
+    margin-top: 40px;
+  }
+
+
+
+
+  /* Título Animado */
+#titulo-animado {
+  font-size: 48px;
+  background: linear-gradient(90deg, #ff0055, #6200ea, #00c3ff);
+  background-size: 200% auto;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: brilhoGradiente 3s linear infinite, crescer 1s ease forwards;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid #fff;
+}
+
+/* Gradiente animado */
+@keyframes brilhoGradiente {
+  0% { background-position: 0% center; }
+  50% { background-position: 100% center; }
+  100% { background-position: 0% center; }
+}
+
+/* Entrada crescendo */
+@keyframes crescer {
+  0% { transform: scale(0.5); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+
+
+
+.galeria-animes {
+  padding: 40px;
+  background-color: #d4d2d2;
+  text-align: center;
+} 
+
+.galeria-animes h2 {
+  font-size: 27px;
+  margin-bottom: 25px;
+  color: #333;
+ font-family: Verdana;
+ color: brown;
+}
+
+#anime-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.anime-item {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.anime-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.anime-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+ p{
+  font-family: verdana;
+}
+
+#curiosidades{
+  font-family: verdana;
+}
+
+.hero {
+  background-image: url('img2/fundo berserk.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 20px;
+}
+
+
+
+/* Ajustes para telas menores */
+@media (max-width: 768px) {
+  
+  header, nav, .hero {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .container, .section, .content {
+    width: 90%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
