@@ -57,8 +57,3 @@ CSS3: Para o estilo visual do site e animações.
 
 JavaScript: Para funcionalidades interativas como modo escuro, quiz e animações dinâmicas.
 
-Bibliotecas:
-
-GSAP (GreenSock Animation Platform): Para animações avançadas e suaves.
-
-jQuery (opcional): Para facilitar a manipulação do DOM e interações.
