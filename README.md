@@ -37,7 +37,7 @@ O site possui um quiz sobre mangás que desafia os usuários a responderem pergu
 
 -COMO USAR
 1. Alternando entre o Modo Escuro e Claro
-Clique no ícone de lua/sol localizado no canto superior direito da página para alternar entre os modos.
+Clique no ícone de lua localizado no canto superior direito da página para alternar entre os modos.
 
 2. Navegação e Animações
 Basta rolar a página para ver as animações de transição fluírem enquanto você explora as seções.
